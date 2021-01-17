@@ -35,6 +35,7 @@ function newItem() {
 
 }
 
+//Allows enter button to function the same as the "Add" button.
 $('input').keypress( function(e) {
   if (e.keyCode == '13') {
     e.preventDefault();
