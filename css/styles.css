@@ -64,10 +64,6 @@ li:hover {
   cursor: pointer;
  }
 
-.delete {
-	display: none;
-}
-
 .close {
   background: none;
 	border: none;
