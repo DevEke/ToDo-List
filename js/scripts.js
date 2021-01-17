@@ -16,7 +16,7 @@ function newItem() {
   }
 // Crosses an item off if its doubel clicked
   li.on('dblclick', function() {
-    li.addClass('strike');
+    li.toggleClass('strike');
   })
 
 //Adds a Delete button to each list item
